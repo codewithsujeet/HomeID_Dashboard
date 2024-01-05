@@ -1,0 +1,1433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--Font Awesome 5 -->
+  <script src="https://kit.fontawesome.com/62cf3985a1.js" crossorigin="anonymous"></script>
+
+  <!--Slick CSS-->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <!--Custom CSS-->
+  <link href="css/style.css" rel="stylesheet">
+
+  <title>homeID DashboardPage</title>
+  
+</head>
+
+<body>
+
+
+  <div class="container-fluid header-bg" style="padding-bottom: 85px;">
+    <div class="container">
+      <!-- Header Navbar Start-->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/zeiore.png" alt="logo missing"
+              style="width:auto;height:35px;filter: brightness(0) invert(1);" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-ul">
+              <li class="nav-item dropdown  navbar-li">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Home<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Home 01</a></li>
+                  <li><a class="dropdown-item" href="#">Home 02</a></li>
+                  <li><a class="dropdown-item" href="#">Home 03</a></li>
+                  <li><a class="dropdown-item" href="#">Home 04</a></li>
+                  <li><a class="dropdown-item" href="#">Home 05</a></li>
+                  <li><a class="dropdown-item" href="#">Home 06</a></li>
+                  <li><a class="dropdown-item" href="#">Home 07</a></li>
+                  <li><a class="dropdown-item" href="#">Home 08</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown  navbar-li">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Listing<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row" style="width: 70rem;">
+                      <div class="col-md-3">
+                        <h3 class="list-view-title"><span class="border-bottom-underline">List</span> View</h3>
+
+                        <ul class="list-view-item">
+                          <li><a class="dropdown-item" href="#">Full width list</a></li>
+                          <li><a class="dropdown-item" href="#">List with left filter</a></li>
+                          <li><a class="dropdown-item" href="#">List with right filter</a></li>
+                          <li><a class="dropdown-item" href="#">List with left sidebar</a></li>
+                          <li><a class="dropdown-item" href="#">List with right sidebar</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <h3 class="list-view-title"><span class="border-bottom-underline">Grid</span> View</h3>
+
+                        <ul class="list-view-item">
+                          <li><a class="dropdown-item" href="#">Width grid full 1</a></li>
+                          <li><a class="dropdown-item" href="#">Width grid full 2</a></li>
+                          <li><a class="dropdown-item" href="#">Width grid full 3</a></li>
+                          <li><a class="dropdown-item" href="#">Grid with left filter</a></li>
+                          <li><a class="dropdown-item" href="#">Grid with right filter</a></li>
+                          <li><a class="dropdown-item" href="#">Grid with left sidebar</a></li>
+                          <li><a class="dropdown-item" href="#">Grid with right sidebar</a></li>
+
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <h3 class="list-view-title"><span class="border-bottom-underline">Map</span> style</h3>
+
+                        <ul class="list-view-item">
+                          <li><a class="dropdown-item" href="#">Half map list layout 1</a></li>
+                          <li><a class="dropdown-item" href="#">Half map list layout 2</a></li>
+                          <li><a class="dropdown-item" href="#">Half map grid layout 1</a></li>
+                          <li><a class="dropdown-item" href="#">Half map grid layout 2</a></li>
+                          <li><a class="dropdown-item" href="#">Full map 1</a></li>
+                          <li><a class="dropdown-item" href="#">Full map 2</a></li>
+                          <li><a class="dropdown-item" href="#">Full map with sidebar</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-3">
+                        <h3 class="list-view-title"><span class="border-bottom-underline">Single</span> Property
+                        </h3>
+
+                        <ul class="list-view-item">
+                          <li><a class="dropdown-item" href="#">Single Property 1</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 2</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 3</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 4</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 5</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 6</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 7</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 8</a></li>
+                          <li><a class="dropdown-item" href="#">Single Property 9</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown  navbar-li">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dashboard<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                  <li><a class="dropdown-item" href="#">Add New Property</a></li>
+                  <li><a class="dropdown-item" href="#">My Properties</a></li>
+                  <li><a class="dropdown-item" href="#">My Favourites</a></li>
+                  <li><a class="dropdown-item" href="#">Save Search</a></li>
+                  <li><a class="dropdown-item" href="#">Reviews</a></li>
+                  <li><a class="dropdown-item" href="#">My Package</a></li>
+                  <li><a class="dropdown-item" href="#">My Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Signup and login </a></li>
+                  <li><a class="dropdown-item" href="#">Password Recovery</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown  navbar-li">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 220px;">
+                  <li class="nav-item dropdown has-dd">
+                    <a style="margin-left: 9px;" class="nav-link caret" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      News<span style="margin: 0 0 0 125px;"><i class="fas fa-angle-right"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid with sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                    </ul>
+                  </li>
+
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li class="nav-item dropdown has-dd">
+                    <a style="margin-left: 9px;" class="nav-link caret" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Service<span style="margin: 0 0 0 111px;"><i class="fas fa-angle-right"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid with sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-dd">
+                    <a style="margin-left: 9px;" class="nav-link caret" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact us<span style="margin: 0 0 0 84px;"><i class="fas fa-angle-right"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid with sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-dd">
+                    <a style="margin-left: 9px;" class="nav-link caret" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Agent<span style="margin: 0 0 0 116px;"><i class="fas fa-angle-right"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid with sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-dd">
+                    <a style="margin-left: 9px;" class="nav-link caret" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Agency<span style="margin: 0 0 0 108px;"><i class="fas fa-angle-right"></i></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog classic</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                      <li><a class="dropdown-item" href="#">Blog grid with sidebar</a></li>
+                      <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FQAs</a></li>
+                  <li><a class="dropdown-item" href="#">Page 404</a></li>
+                  <li><a class="dropdown-item" href="#">Checkout</a></li>
+                  <li><a class="dropdown-item" href="#">Payment Completed</a></li>
+                  <li><a class="dropdown-item" href="#">Compare</a></li>
+                  <li><a class="dropdown-item" href="#">Packages</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown  navbar-li me-5">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Docs<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
+                      <div style="display:flex;">
+                        <span><i class="fas fa-book fa-2x" style="margin-top: 15px;"></i></span>
+                        <div style="margin-left: 15px;">
+                          <span class=docs-title>Documentation</span><br>
+                          <span>Kick-start customization</span>
+
+                        </div>
+                      </div>
+
+                    </a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">
+                      <div style="display:flex;">
+                        <span><i class="fab fa-uikit fa-2x" style="margin-top: 15px;"></i></span>
+                        <div style="margin-left: 15px;">
+                          <span class=docs-title>Documentation</span>
+                          <span class="badge bg-danger">50+ </span><br>
+                          <span>Flexibe component</span>
+
+                        </div>
+                      </div>
+                    </a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">
+                      <div style="display:flex;">
+                        <span><i class="far fa-edit fa-2x" style="margin-top: 15px;"></i></span>
+                        <div style="margin-left: 15px;">
+                          <span class=docs-title>Changelog</span>
+                          <span class="badge bg-success">50+ </span><br>
+                          <span>Regular updates</span>
+
+                        </div>
+                      </div>
+                    </a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">
+                      <div style="display:flex;">
+                        <span><i class="far fa-edit fa-2x" style="margin-top: 15px;"></i></span>
+                        <div style="margin-left: 15px;">
+                          <span class=docs-title>Support</span><br>
+
+                          <span>htttps://www.zeiore.com</span>
+
+                        </div>
+                      </div>
+                    </a></li>
+
+                </ul>
+              </li>
+
+
+
+              <li class="nav-item dropdown me-3">
+                <a class="nav-link caret" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ENG<span style="padding:0 5px;"><i class="fas fa-angle-down"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">ENG</a></li>
+                  <li><a class="dropdown-item" href="#">JN</a></li>
+                  <li><a class="dropdown-item" href="#">VN</a></li>
+                  <li><a class="dropdown-item" href="#">KR</a></li>
+                </ul>
+              </li>
+              <span style="margin: 7px 13px 0 2px;color: white;">&#124;</span>
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+              </li>
+              <a href="#" style="color: white;"><i class="far fa-heart fa-2x" style=" margin:5px 0 0 0px;"></i></a>
+              <span class="msg-notification"><sup>2</sup></span><br>
+
+              <a href="#" class="btn add-btn">Add
+                Listing<span style="margin: 0 7px;"><i class="far fa-heart"></i></span></a>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <!-- Header Navbar End -->
+    </div>
+    <div class="container-fluid text-center " style="margin:100px 0;">
+      <p class="header-content">LET US GUIDE YOUR HOME</p>
+      <h1 class="header-title">Find Your Dream Home</h1>
+    </div>
+
+    <div class="container" style="padding-right: 130px;">
+      <div class="tab">
+        <button class="tablinks btn1" onclick="openCity(event, 'London')"><span><i
+              class="fas fa-home me-1"></i></span>FOR
+          SALE </button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')"><span><i class="fas fa-city me-1"></i></span>FOR
+          RENT
+        </button>
+      </div>
+
+      <div id="London" class="tabcontent p-0 m-0" style="display: block;">
+        <form action="">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="home-type" class="form-label label-text">HOME TYPE</label>
+                  <select id="home-type" class="form-control">
+                    <option selected>Please Select</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="White">White</option>
+                    <option value="Black">Black</option>
+                  </select>
+
+                  <span style="position: relative;left:355px;top: -28px;color: grey;"><i
+                      class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="col-md-6">
+                  <label for="search" class="form-label label-text">SEARCH</label>
+                  <input type="text" class="form-control search" placeholder="Find Something...">
+                  <span style="position: relative;left:355px;top: -28px;color: grey;"><i
+                      class="fas fa-search"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2" style="background-color: skyblue;padding: 15px;">
+              <a href="#"
+                style="font-size: 26px;text-decoration: none;color: grey; font-weight: 53px; font-weight: 700;">Advanced
+                Search
+                <i class="fas fa-plus advanced-search-icon"></i>
+              </a>
+            </div>
+            <div class="col-md-2 text-center">
+              <input type="submit" value="Search" class="btn search-btn">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="Paris" class="tabcontent p-0 m-0">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <label for="home-type" class="form-label label-text">HOME TYPE</label>
+                <select id="home-type" class="form-control">
+                  <option selected>Please Select</option>
+                  <option value="Red">Red</option>
+                  <option value="Green">Green</option>
+                  <option value="White">White</option>
+                  <option value="Black">Black</option>
+                </select>
+
+                <span style="position: relative;left:355px;top: -28px;color: grey;"><i
+                    class="fas fa-angle-down"></i></span>
+              </div>
+              <div class="col-md-6">
+                <label for="search" class="form-label label-text">SEARCH</label>
+                <input type="text" class="form-control search" placeholder="Find Something...">
+                <span style="position: relative;left:355px;top: -28px;color: grey;"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2" style="background-color: skyblue;padding: 15px;">
+            <a href="#"
+              style="font-size: 26px;text-decoration: none;color: grey; font-weight: 53px; font-weight: 700;">Advanced
+              Search
+              <i class="fas fa-plus advanced-search-icon"></i>
+            </a>
+          </div>
+          <div class="col-md-2 text-center">
+            <input type="submit" value="Search" class="btn search-btn">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--Start best Properties For Sale  -->
+  <div class="container-fluid">
+    <div class="container clearfix" style="margin-top: 20px;">
+      <h4 style="float: left;"><span class="border-bottom-underline">Best</span> Properties For Sale</h4>
+
+      <a href="#!" class="btn see-all-property-btn">See all property<span class="ms-1"><i
+            class="fas fa-arrow-right"></i></span></a>
+    </div>
+    <div class="container">
+      <p style="margin-top: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators carousel-btn">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home1.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home2.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home3.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home4.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home5.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home6.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home7.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home8.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home9.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev" style="margin-left: -120px;">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next" style="margin-right: -120px;">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End best Properties For Sale  -->
+
+  <!--Start Explore by property type-->
+  <div class="container-fluid explore-by-property-type">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4 style="font-weight: 600;font-family: monospace;letter-spacing: 1px;"><span
+              class="explore-by-property-border-bottom">Explore</span> <br> by Property Type</h4>
+          <p style="font-size: 14px;margin: 25px 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rem.
+          </p>
+          <a href="#!" class="btn available-property-btn">+2300 Available Properties<span class="ms-1"><i
+                class="fas fa-arrow-right"></i></span>
+          </a>
+        </div>
+        <div class="col-md-9">
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner explore-by-property">
+              <div class="carousel-item active">
+                
+                <div class="row explore-by-property">
+                  <div class="col-md-3  explore-by-property-col">
+                    <div class="card">
+                      <div class="card-body text-center p-5">
+                        <a href="#!">
+                          <img src="/images/villa.png" alt="missing" class="card-img-top">
+                        </a>
+                        <h4 class="card-title" style="font-size: 18px;margin-top: 10px;letter-spacing: 2px;">House
+                        </h4>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body text-center p-5">
+                        <a href="#!">
+                          <img src="/images/office.png" alt="missing" class="card-img-top">
+                        </a>
+                        <h4 class="card-title" style="font-size: 18px;margin-top: 10px;letter-spacing: 2px;">Villa
+                        </h4>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body text-center p-5">
+                        <a href="#!">
+                          <img src="/images/hhh.png" alt="missing" class="card-img-top">
+                        </a>
+                        <h4 class="card-title" style="font-size: 18px;margin-top: 10px;letter-spacing: 2px;">Office
+                        </h4>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body text-center p-5">
+                        <a href="#!">
+                          <img src="/images/apartment.png" alt="missing" class="card-img-top">
+                        </a>
+                        <h4 class="card-title" style="font-size: 18px;margin-top: 10px;letter-spacing: 2px;">Apparment
+                        </h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev" style="margin-left: -100px;">
+              <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next" style="margin-right: -100px;">
+              <span class="carousel-control-next-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Explore by property type-->
+
+  <!--Start Best Properties For Rent-->
+  <div class="container-fluid">
+    <div class="container clearfix" style="margin-top: 20px;">
+      <h4 style="float: left;"><span class="border-bottom-underline">Best</span> Properties For Rent</h4>
+
+      <a href="#!" class="btn see-all-property-btn">See all property<span class="ms-1"><i
+            class="fas fa-arrow-right"></i></span></a>
+    </div>
+    <div class="container">
+      <p style="margin-top: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators carousel-btn">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home1.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home2.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home3.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home4.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home5.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home6.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home7.jpeg" class="card-img-top " alt="..." width="auto" height="300px">
+                    <div class="card-body">
+
+                      <a href="#!" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title"
+                        style="font-size: 15px;font-weight: 500;letter-spacing: 1px;font-family: system-ui;">Villa on
+                        Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon "></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home8.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart  card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card" style="width: 25rem;">
+
+                    <img src="/images/home9.jpeg" class="card-img-top" alt="..." width="auto" height="300px">
+                    <div class="card-body">
+                      <a href="#" class="btn card-featured-btn">FEATURED</a>
+                      <a href="#" class="btn card-sale-btn">FOR SALE</a>
+                      <h5 class="card-title" style="font-size: 15px;
+                      font-weight: 500;
+                      letter-spacing: 1px;
+                      font-family: system-ui;">Villa on Hollywood Boulevard</h5>
+                      <p class="card-text" style="font-size: 12px;">1421 Indira Nagar Thane</p>
+
+                      <span class="card-icon"><i class="fas fa-bed" style="color: skyblue;margin-right: 4px;"></i>3
+                        Br</span>
+                      <span class="card-icon"><i class="fas fa-shower" style="color: skyblue;margin-right: 4px;"></i>3
+                        Ba</span>
+                      <span class="card-icon"><i class="fas fa-th-large"
+                          style="color: skyblue;margin-right: 4px;"></i>2500 Sq.Ft</span>
+                      <span class="card-icon"><i class="fas fa-warehouse"
+                          style="color: skyblue;margin-right: 4px;"></i>Gr</span>
+                      <hr style="margin-left: -16px;margin-right: -14px;">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <span style="font-weight: bold;">&dollar;1.250.000/month</span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="far fa-heart card-footer-icon"></i></span>
+                        </div>
+                        <div class="col-md-2">
+                          <span><i class="fas fa-exchange-alt card-footer-icon"></i></span>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev" style="margin-left: -120px;">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next" style="margin-right: -120px;">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="filter: brightness(0);"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Best Properties For Rent-->
+
+
+  <!-- Start Official Partner-->
+  <div class="container-fluid   official-partner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a href="#" class="company-brand">
+            <img src="images/Urban-Home.png" alt="image missing" class="img-fluid mx-5">
+            <img src="images/Urban-Home2.png" alt="image missing" class="img-fluid mx-5 img-top">
+
+          </a>
+          <a href="#" class="company-brand">
+            <img src="images/Bastille.png" alt="image missing" class="img-fluid mx-5">
+            <img src="images/Bastile2.png" alt="image missing" class="img-fluid mx-5 img-top">
+
+          </a>
+          <a href="#" class="company-brand">
+            <img src="images/House.png" alt="image is missing" class="img-fluid mx-5">
+            <img src="images/House2.png" alt="image missing" class="img-fluid mx-5 img-top">
+
+          </a>
+          <a href="#" class="company-brand">
+            <img src="images/Real-Estate.png" alt="image is missing" class="img-fluid mx-4  opacity-dark"
+              style="opacity: 0.7">
+
+          </a>
+          <a href="#" class="company-brand">
+            <img src="images/Eco-House.png" alt="image is missing" class="img-fluid mx-4">
+            <img src="images/Eco-House2.png" alt="image missing" class="img-fluid mx-4 img-top">
+
+          </a>
+          <a href="#" class="company-brand">
+            <img src="images/Real-Estate.png" alt="image is missing" class="img-fluid mx-4 opacity-dark"
+              style="opacity: 0.7">
+
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Official Partner-->
+
+  <!--Start Footer-->
+  <div class="container-fluid bg-dark text-white">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="row" style="margin: 50px 0;">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="images/zeiore.png" alt="image is missing" class="img-fluid"
+                style="width: 170px;height: auto;filter: brightness(0) invert(1);">
+            </a>
+            <h6><a href="#" class="footer-content">58 Howard Street #2 San Francisco</a></h6>
+            <h6><a href="#" class="footer-content">contact@homeid.com</a></h6>
+            <h6><a href="#" class="footer-content">(+68)122109876</a></h6>
+            <h6><a href="#" class="footer-content">www.homeid.com</a></h6>
+            <h6><a href="#" class="footer-content">Terms of Use</a></h6>
+          </div>
+          <div class="col-md-3">
+
+            <h5 style="margin: 0 0 23px 0;">Popular Searches</h5>
+            <h6><a href="#" class="footer-content">Apartment for rent</a></h6>
+            <h6><a href="#" class="footer-content">partment Low to hide</a></h6>
+            <h6><a href="#" class="footer-content">Offices for Buy</a></h6>
+            <h6><a href="#" class="footer-content">Offices for Rent</a></h6>
+          </div>
+          <div class="col-md-3">
+            <h5 style="margin: 0 0 23px 0;">Quick links</h5>
+            <h6><a href="#" class="footer-content">Terms of Use</a></h6>
+            <h6><a href="#" class="footer-content">Privacy Policy</a></h6>
+            <h6><a href="#" class="footer-content">Contact support</a></h6>
+            <h6><a href="#" class="footer-content">Careers</a></h6>
+          </div>
+          <div class="col-md-3">
+            <h5 style="margin: 0 0 23px 0;">Sign Up for Our Newsletter</h5>
+            <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h6>
+            <h6>
+              <div class="mb-3" style="display:flex;">
+
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email"
+                  style="border-radius:0;">
+                <input type="submit" class="btn btn-primary" value="subscribe" style="border-radius: 0;">
+
+              </div>
+            </h6>
+            <a href="#" class="social-link-icons social-link-icons-color"><i class="fab fa-twitter fa-2x me-3"></i></a>
+            <a href="#" class="social-link-icons social-link-icons-color"><i class="fab fa-facebook fa-2x me-3"></i></a>
+            <a href="#" class="social-link-icons social-link-icons-color"><i class="fab fa-skype fa-2x me-3"></i></a>
+            <a href="#" class="social-link-icons social-link-icons-color"><i
+                class="fab fa-linkedin-in fa-2x me-3"></i></a>
+
+            </h6>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-3">
+            <div class="row">
+              <div class="col-md-6">Terms of Use</div>
+              <div class="col-md-6">Privacy Policy</div>
+            </div>
+          </div>
+          <div class="col-md-9 text-end">&#169; 2020 Zeiore. All Rights Reserved</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--End Footer-->
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!--Jquery CDN-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+  <!--Custom JS-->
+  <script src="js/script.js"></script>
+
+
+  <!--slick.min.js-->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script> 
+     $(document).ready(function(){
+      $('.explore-by-property .explore-by-property-card .card').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+     });
+    
+  </script>
+</body>
+
+</html>
